@@ -30,34 +30,76 @@
         <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. -->
-			<section class="header" style="background-color:rgb(0,36,93)">
-				<div class="page-header">  
-					<div class="container-fluid">
-						<div class="row">
-							<div class="logo col-xs-8 col-sm-6 col-md-6 col-lg-6">
-									<img class="image-responsive" width=300 src="assets/logos/api_superstore_logo_bg.png" alt = "Block logo">	
-									
-							</div>
-							<div class="logo pull-right image-responsive col-xs-8 col-sm-6 col-md-6 col-lg-6">
-								<img class="image-responsive" width=30 src="design/1447390942_Facebook.svg" alt = "Facebook">	
-									<img class="image-responsive" width=30 src="design/1447390944_Twitter.svg" alt = "Twitter">	
-									<img class="image-responsive" width=30 src="design/1447390947_Pinterest.svg" alt = "Pinterest">	
-									<img class="image-responsive" width=30 src="design/1447390957_Google_Plus.svg" alt = "Google Plus">	
-						</div>
-						</div>
-						<div class="row intro col-xs-12 col-sm-12 col-md-6 col-lg-6" style="color:white">
-							<h1>
-								We provide fast access to the most cutting-edge APIs available online.
-							</h1>
-							<h2>
-								Get started today
-							</h2>	
-							<h2>
-								We're here to help! <a style="color:white" href="mailto:contactus@apisuperstore.com?Subject=Let%27s%chat">Let's chat</a>
-							</h2>
-					</div>
+			<header id="header" style="background-color:rgb(0,36,93);
+																 background-image: -webkit-linear-gradient(top, rgb(0,36,93), rgb(256,256,256) );
+																 background0image: linear-gradient(to bottom, rgb(0,36,93), rgb(256,256,256) )">
+	<article id="header_top" class="container fix">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="logo">
+						<img class="image-responsive" width=300 src="assets/logos/api_superstore_logo_bg.png" alt = "Block logo">	
 				</div>
-			</section>
+			</div>
+			<div class="col-md-6">
+				<p class="phone">
+					Call <strong>+1 (859) 444-0297</strong> or
+					<a href="mailto:contactus@apisuperstore.com?Subject=Let%27s%chat" class="btn btn-sm">Let's chat</a>
+				
+				</p>
+			</div>
+		</div>
+	</article>
+	<article id="header_bottom" class="container fix">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>We provide fast access to the most cutting-edge APIs available online.</h1>
+				<p>Get started today</p>
+			</div>
+		</div>
+		<a href="#" class="toggle" id="toggle_one" data-event="Clicked the header scroll down button">Scroll Down</a>
+	</article>
+	<nav class="">
+		<a href="#header" class="slim slim_logo"></a>
+		<a href="/" class="slim slim_toggle" data-event="Clicked the header back to top button"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		<ul style="display:in-line;">
+			<li><a href="#introduction" id="link_introduction" data-event="Clicked the services menu link">Services</a></li>
+			<li><a href="#casestudies" id="link_casestudies" data-event="Clicked the case studies menu link">Case Studies</a></li>
+			<li><a href="#technology" id="link_technology" data-event="Clicked the technologies menu link">Technologies</a></li>
+			<li><a href="#people" id="link_people" data-event="Clicked the team menu link">Team</a></li>
+			<li><a href="#callout" id="link_callout" data-event="Clicked the contact us menu link">Contact Us</a></li>
+		</ul>
+	</nav>
+</header>
+<!-- 			<header>
+				<section class="header" style="background-color:rgb(0,36,93)">
+					<div class="page-header">  
+						<div class="container-fluid">
+							<div class="row">
+								<div class="logo col-xs-8 col-sm-6 col-md-6 col-lg-6">
+										<img class="image-responsive" width=300 src="assets/logos/api_superstore_logo_bg.png" alt = "Block logo">	
+
+								</div>
+								<div class="logo pull-right image-responsive col-xs-8 col-sm-6 col-md-6 col-lg-6">
+									<img class="image-responsive" width=30 src="design/1447390942_Facebook.svg" alt = "Facebook">	
+										<img class="image-responsive" width=30 src="design/1447390944_Twitter.svg" alt = "Twitter">	
+										<img class="image-responsive" width=30 src="design/1447390947_Pinterest.svg" alt = "Pinterest">	
+										<img class="image-responsive" width=30 src="design/1447390957_Google_Plus.svg" alt = "Google Plus">	
+							</div>
+							</div>
+							<div class="row intro col-xs-12 col-sm-12 col-md-6 col-lg-6" style="color:white">
+								<h1>
+									
+								</h1>
+								<h2>
+						
+								</h2>	
+								<h2>
+									
+								</h2>
+						</div>
+					</div>
+				</section>
+			</header>	 -->
 			<section class="video">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2">
@@ -69,39 +111,39 @@
 			</section>
 			<section id="features" class="features-stripe  center-block text-center">
 				<div class="row">
-					<div class="images">
-						<img src="design/spider_web_clipped.jpg" width=200 alt = "Spider web">	
-					</div>
-					<div class="description" >
-						<h3> The Best of the Web</h3>
-						<p>Links to only the best APIs from all over the web</p>
-					</div>
-				</div>	
-				<div class="row">
-					<div class="images">
-						<img  src="design/goat_clipped.jpg" width=200 alt = "Proud Goat">	
-					</div>
-					<div class="description">
-						<h3> Many Ways to Pay</h3>
-						<p>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade</p>
+					<div class="hovereffect">
+							<img class="img-responsive center-block" src="design/spider_web_clipped.jpg" width=200 alt = "Spider web">	
+							<div class="overlay">
+								 <h2> The Best of the Web</h2>
+								 <a class="info" href="#">Links to only the best APIs from all over the web</a>
+							</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="images">
-						<img src="design/card_catalog_clipped.jpg" width=200 alt = "Card Catalog">	
-					</div>
-					<div class="description">
-						<h3> Convenient Catalog</h3>
-						<p>We've collected, collated, collapsed, compared and catalog every conceivable API available </p>
+					<div class="hovereffect">
+							<img class="img-responsive center-block" src="design/goat_clipped.jpg" width=200 alt = "Proud Goat">	
+							<div class="overlay">
+								 <h2> Many Ways to Pay</h2>
+								 <a class="info" href="#">Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade</a>
+							</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="images" >
-						<img src="design/dapper_worker_clipped.jpg" width=200 alt = "Dapper Worker">	
+					<div class="hovereffect">
+							<img class="img-responsive center-block" src="design/card_catalog_clipped.jpg" width=200 alt = "Card Catalog">
+							<div class="overlay">
+								<h2> Convenient Catalog</h2>
+								<a class="info" href="#">We've collected, collated, collapsed, compared and cataloged every conceivable API available </a>
+							</div>
 					</div>
-					<div class="description">
-						<h3> Elegance Meets Sophistication</h3>
-						<p>We've designed an elegan shopping experience that rivals anything on the net</p>
+				</div>
+				<div class="row">
+					<div class="hovereffect">
+							<img class="img-responsive center-block" src="design/dapper_worker_clipped.jpg" width=200 alt = "Dapper Worker">
+							<div class="overlay">
+								 <h2> Elegance Meets Sophistication</h2>
+								 <a class="info" href="#">We've designed an elegant shopping experience that rivals anything on the net</a>
+							</div>
 					</div>
 				</div>
 			</section>
@@ -109,11 +151,22 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6">
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390529_social_55.svg" alt = "Facebook">	
+							<div class="col-xs-4"
+									 style="border-style: solid;
+   												border-width: 0;
+													padding:0;" >
+								<a href="/" class="box-link">
+								
+								<div class="images"
+										 style="padding:2;" >
+									<img class="center-block" 
+											 
+											 width=50 src="design/1447390529_social_55.svg" alt = "Facebook">	
+									<header class="text-center"
+													style="background:black;">Facebook<br><span class="badge">75+</span></header>	
 								</div>	 
 							</div>	
+								</a>
 							<div class="col-xs-4">
 								<div class="images">
 									<img class="center-block" width=50 src="design/1447390582_social_50.svg" alt = "Instagram">	
@@ -166,23 +219,28 @@
 							</div>	
 							<div class="col-xs-4">
 								<div class="images">
-									<img class="center-block" width=50 src="design/1447390629_social_10.svg" alt = "Snapchat">	
+									<p>
+										Plus thousands more
+									</p>
 								</div>	
 							</div>	
 						</div>
 						<div class="col-xs-6"> 
-							<p>
-								The most up‐to‐date APIs for every purpose. Save time, get APIs! 
-							</p>
+							<h2 style="color:red;">
+								The most up‐to‐date APIs for every purpose. 
+							<h2>
+							<h2>
+								Save time, get APIs! 
+							</h2>
 							</div>	
 					</div>	
 				</div>
 			</section>
   		<section class="Algorithm">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
-					<h3>
+					<h2>
 						How we do it
-					</h3>
+					</h2>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
 					<p>
