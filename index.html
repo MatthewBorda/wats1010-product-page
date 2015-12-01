@@ -24,95 +24,97 @@
              support bookmarking. -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="favicon" href="favicon.ico">
-
+				<link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
     </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-			<header id="header" style="background-color:rgb(0,36,93);
-																 background-image: -webkit-linear-gradient(top, rgb(0,36,93), rgb(256,256,256) );
-																 background0image: linear-gradient(to bottom, rgb(0,36,93), rgb(256,256,256) )">
-	<article id="header_top" class="container fix">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="logo">
-						<img class="image-responsive" width=300 src="assets/logos/api_superstore_logo_bg.png" alt = "Block logo">	
-				</div>
-			</div>
-			<div class="col-md-6">
-				<p class="phone">
-					Call <strong>+1 (859) 444-0297</strong> or
-					<a href="mailto:contactus@apisuperstore.com?Subject=Let%27s%chat" class="btn btn-sm">Let's chat</a>
-				
-				</p>
-			</div>
-		</div>
-	</article>
-	<article id="header_bottom" class="container fix">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>We provide fast access to the most cutting-edge APIs available online.</h1>
-				<p>Get started today</p>
-			</div>
-		</div>
-		<a href="#" class="toggle" id="toggle_one" data-event="Clicked the header scroll down button">Scroll Down</a>
-	</article>
-	<nav class="">
-		<a href="#header" class="slim slim_logo"></a>
-		<a href="/" class="slim slim_toggle" data-event="Clicked the header back to top button"><span class="glyphicon glyphicon-chevron-up"></span></a>
-		<ul style="display:in-line;">
-			<li><a href="#introduction" id="link_introduction" data-event="Clicked the services menu link">Services</a></li>
-			<li><a href="#casestudies" id="link_casestudies" data-event="Clicked the case studies menu link">Case Studies</a></li>
-			<li><a href="#technology" id="link_technology" data-event="Clicked the technologies menu link">Technologies</a></li>
-			<li><a href="#people" id="link_people" data-event="Clicked the team menu link">Team</a></li>
-			<li><a href="#callout" id="link_callout" data-event="Clicked the contact us menu link">Contact Us</a></li>
-		</ul>
-	</nav>
-</header>
-<!-- 			<header>
-				<section class="header" style="background-color:rgb(0,36,93)">
-					<div class="page-header">  
-						<div class="container-fluid">
-							<div class="row">
-								<div class="logo col-xs-8 col-sm-6 col-md-6 col-lg-6">
-										<img class="image-responsive" width=300 src="assets/logos/api_superstore_logo_bg.png" alt = "Block logo">	
+<!-- /* Coolors Exported Palette - https://coolors.co/app/565554-003b5d-3ec9c3-d5e0b3-db1900*/ -->
+<!-- 
+$color1: #565554; //rgba(86, 85, 84, 100) grey
+$color2: #003b5d; //rgba(0, 59, 93, 100) dark blue
+$color3: #3ec9c3; //rgba(62, 201, 195, 100) turquise
+$color4: #f7ffd8; //rgba(247, 255, 216, 100) off white
+$color5: #db1900; //rgba(219, 25, 0, 100) orange emphasis
+$color6: #d5e0b3; //rgba(213, 224, 179, 100) darker offwhite
+-->
+	<body style="font-family: 'Raleway', sans-serif;
+							 background: #f7ffd8;
+							 color:#db1900">
 
-								</div>
-								<div class="logo pull-right image-responsive col-xs-8 col-sm-6 col-md-6 col-lg-6">
-									<img class="image-responsive" width=30 src="design/1447390942_Facebook.svg" alt = "Facebook">	
-										<img class="image-responsive" width=30 src="design/1447390944_Twitter.svg" alt = "Twitter">	
-										<img class="image-responsive" width=30 src="design/1447390947_Pinterest.svg" alt = "Pinterest">	
-										<img class="image-responsive" width=30 src="design/1447390957_Google_Plus.svg" alt = "Google Plus">	
-							</div>
-							</div>
-							<div class="row intro col-xs-12 col-sm-12 col-md-6 col-lg-6" style="color:white">
-								<h1>
-									
-								</h1>
-								<h2>
-						
-								</h2>	
-								<h2>
-									
-								</h2>
-						</div>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">Introduction</a></li>
+				<li><a href="#about">Features</a></li>
+				<li><a href="#about">How We Do It</a></li>
+				<li><a href="#about">Testimonials</a></li>
+				<li><a href="#about">Meet the Team</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Signup</a></li>
+				<li><a href="#">Login</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+			<section id="header">
+				<div class ="jumbotron text-center">
+					<div class="row">
+						<h1>
+							The API Superstore
+						</h1>
 					</div>
-				</section>
-			</header>	 -->
-			<section class="video">
+					
+						<h2>
+							We provide fast access to the most cutting-edge APIs available online.
+						</h2>
+						<p><a class="btn btn-primary btn-lg" href="#" role="button">Get Started Today!</a></p>
+					</div>
+
+			</section>
+			<section id="video" class="video">
+				<article class="container-fixed">
+			<div class="row text-center">				
+					<h2>
+						Save time and money
+						<small>[for the most part]</small>
+					</h2>
+			<div class="row text-center">				
+				<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+					<p class="larger">The API Superstore provides a catalog of third­party APIs that you can use to enhance your business. From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!
+The longer you wait, the longer you’re not making more money and happier users!
+				</p>
+				</div>
+				</div>				
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2">
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" width=100 src="//www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen="false"></iframe>
-						</div>
+				<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" width=100 src="//www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen="false"></iframe>
+					</div>
+					</div>
 					</div>
 				</div>
+				</article>
+				
 			</section>
 			<section id="features" class="features-stripe  center-block text-center">
+				<div class="row text-center">
+					<h1>
+						Features
+					</h1>
+				</div>
 				<div class="row">
 					<div class="hovereffect">
-							<img class="img-responsive center-block" src="design/spider_web_clipped.jpg" width=200 alt = "Spider web">	
+							<img class="img-responsive center-block img-circle" src="design/spider_web_clipped.jpg" width=200 alt = "Spider web">	
 							<div class="overlay">
 								 <h2> The Best of the Web</h2>
 								 <a class="info" href="#">Links to only the best APIs from all over the web</a>
@@ -121,7 +123,7 @@
 				</div>
 				<div class="row">
 					<div class="hovereffect">
-							<img class="img-responsive center-block" src="design/goat_clipped.jpg" width=200 alt = "Proud Goat">	
+							<img class="img-responsive center-block img-circle" src="design/goat_clipped.jpg" width=200 alt = "Proud Goat">	
 							<div class="overlay">
 								 <h2> Many Ways to Pay</h2>
 								 <a class="info" href="#">Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade</a>
@@ -130,7 +132,7 @@
 				</div>
 				<div class="row">
 					<div class="hovereffect">
-							<img class="img-responsive center-block" src="design/card_catalog_clipped.jpg" width=200 alt = "Card Catalog">
+							<img class="img-responsive center-block img-circle" src="design/card_catalog_clipped.jpg" width=200 alt = "Card Catalog">
 							<div class="overlay">
 								<h2> Convenient Catalog</h2>
 								<a class="info" href="#">We've collected, collated, collapsed, compared and cataloged every conceivable API available </a>
@@ -139,7 +141,7 @@
 				</div>
 				<div class="row">
 					<div class="hovereffect">
-							<img class="img-responsive center-block" src="design/dapper_worker_clipped.jpg" width=200 alt = "Dapper Worker">
+							<img class="img-responsive center-block img-circle" src="design/dapper_worker_clipped.jpg" width=200 alt = "Dapper Worker">
 							<div class="overlay">
 								 <h2> Elegance Meets Sophistication</h2>
 								 <a class="info" href="#">We've designed an elegant shopping experience that rivals anything on the net</a>
@@ -147,214 +149,235 @@
 					</div>
 				</div>
 			</section>
-  		<section class="APILogos">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-6">
-							<div class="col-xs-4"
-									 style="border-style: solid;
-   												border-width: 0;
-													padding:0;" >
-								<a href="/" class="box-link">
-								
-								<div class="images"
-										 style="padding:2;" >
-									<img class="center-block" 
-											 
-											 width=50 src="design/1447390529_social_55.svg" alt = "Facebook">	
-									<header class="text-center"
-													style="background:black;">Facebook<br><span class="badge">75+</span></header>	
-								</div>	 
-							</div>	
-								</a>
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390582_social_50.svg" alt = "Instagram">	
-								</div>	 
-							</div>	
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390586_social_54.svg" alt = "Twitter">	
-								</div>	 
-							</div>
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390587_social_51.svg" alt = "YouTube">	
-								</div>	 
-							</div>
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390591_social_32.svg" alt = "Google Plus">	
-								</div>	 
-							</div>
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390593_social_15.svg" alt = "VK">	
+			<section id="How_we_do_it">
+				<article class="container-fixed text-center">
+					<div id="how_we_do_it" class="row text-center">
+						<h2>
+							How we do it
+						</h2>
+					</div>	
+					<div id="algorithm"class="row text-center">
+						<h3>
+							Our abstruse algorithm automatically assays our all‐inclusive archive and adroitly aggregates APIs in an amicable assembly of awesomeness!
+						</h3>
+						</div>
+					<div id="iconrow1" class="row">
+						<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+									<div class="images">
+										<img class="center-block" width=50 src="design/1447390582_social_50.svg" alt = "Instagram">	
+									</div>	 
 								</div>	
-							</div>	
-							<div class="col-xs-4">
-								<div class="images">
-									<img class="center-block" width=50 src="design/1447390598_social_53.svg" alt = "Pinterest">	
+								<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+									<div class="images">
+										<img class="center-block" width=50 src="design/1447390586_social_54.svg" alt = "Twitter">	
+									</div>	 
+								</div>
+								<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+									<div class="images">
+										<img class="center-block" width=50 src="design/1447390587_social_51.svg" alt = "YouTube">	
+									</div>	 
+								</div>
+								<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+									<div class="images">
+										<img class="center-block" width=50 src="design/1447390591_social_32.svg" alt = "Google Plus">	
+									</div>	 
+								</div>
+								<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+									<div class="images">
+										<img class="center-block" width=50 src="design/1447390593_social_15.svg" alt = "VK">	
+									</div>	
 								</div>	
-							</div>	
-							<div class="col-xs-4">
+								<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+									<div class="images">
+										<img class="center-block" width=50 src="design/1447390598_social_53.svg" alt = "Pinterest">	
+									</div>	
+								</div>	
+					</div>
+					<div id="tagline" class="row">
+						<h2 style="color:red;">
+								The most up‐to‐date APIs for every purpose. 
+							<h2>
+					</div>
+					<div id="iconrow2"class="row">
+							<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+								<div class="images">
+									<img class="center-block" width=50 src="design/1447390529_social_55.svg" alt = "Facebook">	
+								</div>	
+							</div>
+							<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
 								<div class="images">
 									<img class="center-block" width=50 src="design/1447390603_social_37.svg" alt = "Tumblr">	
 								</div>	
-							</div>	
-							<div class="col-xs-4">
+							</div>
+							<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
 								<div class="images">
 									<img class="center-block" width=50 src="design/1447390608_social_48.svg" alt = "LinkedIn">	
 								</div>	
-							</div>	
-							<div class="col-xs-4">
+							</div>
+							<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
 								<div class="images">
 									<img class="center-block" width=50 src="design/1447390609_social_57.svg" alt = "Apple">	
 								</div>	
-							</div>	
-							<div class="col-xs-4">
+							</div>
+							<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
 								<div class="images">
 									<img class="center-block" width=50 src="design/1447390622_social_19.svg" alt = "Weibo">	
 								</div>	
-							</div>	
-							<div class="col-xs-4">
+							</div>
+						<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
 								<div class="images">
-									<p>
-										Plus thousands more
-									</p>
+									<img class="top" width=50 src="design/1447390629_social_10.svg" alt = "Snapchat">	
 								</div>	
-							</div>	
-						</div>
-						<div class="col-xs-6"> 
-							<h2 style="color:red;">
-								The most up‐to‐date APIs for every purpose. 
-							<h2>
-							<h2>
-								Save time, get APIs! 
-							</h2>
-							</div>	
+							</div>
+							
+							
+							</div>
+					<div id="manymore" class="row">
+						<h3>
+							Plus literally dozens more
+						</h3>
+							</div>		
+					<div id="pitch1"class="row">
+						<h2>
+							Save time, get APIs! Signup Today!
+						</h2>
 					</div>	
-				</div>
+				</article>
 			</section>
-  		<section class="Algorithm">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
+  		<section id="Testimonials">
+				<div class="row text-center">
 					<h2>
-						How we do it
+						Testimonials
 					</h2>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
-					<p>
-						Our abstruse algorithm automatically assays our all‐inclusive archive and adroitly aggregates APIs in an amicable assembly of awesomeness!
-					</p>
-				</div>
-			</section>	
-			<section class="Testimonials">
 				<div class="row">
-						<div class="col-xs-12"> 
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
+						<blockquote>
 							<p>
-								Testimonials
+								&ldquo;The API Superstore team has created a truly diving interface. I’m able to more easily keep up with the churn of information. Please don’t stop the rocking!&rdquo;
+								<footer>Amy Zon, Massive Anonymous Customer</footer>
 							</p>
+							</blockquote>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-4 col-lg-4"> 
+						<div class="logo">
+							<img class="image-responsive center-block" width=150 src="assets/logos/api_superstore_sqlogo_bg.png" alt = "Block logo">	
 						</div>
 					</div>
-				<div class="row">
-					<div class="col-xs-3"> 
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
+						<blockquote class="blockquote-reverse">
 						<p>
-							&ldquo;This is the best website ever!&rdquo; ‐ C.P. Yu, AmazingSite.com
+							&ldquo;Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!&rdquo;
+							<footer>Clara Cache</footer>
 						</p>
-					</div>
-					<div class="col-xs-6"> 
-							Image
-					</div>
-					<div class="col-xs-3"> 
-						<p>
-							&ldquo;Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!&rdquo; ‐ Clara Cache
-						</p>
-					</div>
+						
+						</blockquote>
+						</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-4"> 
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
+						<blockquote>
 						<p>
-							&ldquo;This is an invaluable service that really helps me reach my clients&rdquo; ‐ Bruno Moore, Caffeine Addition Counselor
+							&ldquo;This is an invaluable service that really helps me reach my clients&rdquo; 
+							<footer>Bruno Moore, Caffeine Addition Counselor</footer>
 						</p>
+					</blockquote>	
 					</div>
-					<div class="col-xs-4"> 
-							&ldquo;The API Superstore team has created a truly diving interface. I’m able to more easily keep up with the churn of information. Please don’t stop the rocking!&rdquo; ‐ Amy Zon, Massive Anonymous Customer
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">  
+						<blockquote>
+							
+							<p>
+							&ldquo;This is the best website ever!&rdquo; 
+							<footer>C.P. Yu, AmazingSite.com</footer>
+						</p>
+						</blockquote>
+								
 					</div>
-					<div class="col-xs-4"> 
+					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"> 
+						<blockquote class="blockquote-reverse">	
 						<p>
-							&ldquo;API Superstore just makes my life easy!&rdquo; ‐ C. Colin Backlash
+							&ldquo;API Superstore just makes my life easy!&rdquo; 
+							<footer>C. Colin Backlash</footer>
 						</p>
+							</blockquote>
+						
 					</div>
 				</div>
 			</section>
-			<section class="Pricing Table">
-				<div class="table-responsive">
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th></th>
-							<th class="db-bk-color-one">Daily</th>
-							<th>Weekly</th>
-							<th>Tri-Annually (livestock only)</th>
-							<th>Yearly</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Social Media APIs</td>
-							<td>$9.99</td>
-							<td>$75.48</td>
-							<td>7 goats</td>
-							<td>$19.99</td>
-						</tr>
-						<tr>
-							<td>Mapping APIs</td>
-							<td>$11.12</td>
-							<td>$37.50</td>
-							<td>4 goats and 11 chicken</td>
-							<td>$222.22</td>
-						</tr>
-						<tr>
-							<td>Search APIs</td>
-							<td>$0.12</td>
-							<td>$34.56</td>
-							<td>1 goat, 1 llama<sup>**</sup>, and 4 chicken</td>
-							<td>$789</td>
-						</tr>
-						<tr>
-							<td>Cloud APIs</td>
-							<td>$441</td>
-							<td>$481</td>
-							<td>2 sheep</td>
-							<td>$199.99</td>
-						</tr>
-						<tr>
-							<td>Internet of Things APIs</td>
-							<td>Free<sup>***</sup></td>
-							<td>Free<sup>***</sup></td>
-							<td>4 chicken</td>
-							<td>Free<sup>***</sup></td>
-						</tr>
-						<tr>
-							<td>Unlimited APIs</td>
-							<td>$598</td>
-							<td>$399.99</td>
-							<td>7 goats</td>
-							<td>$999.99</td>
-						</tr>
-					</tbody>
-				</table>
-				
-			</div>
+			<section id="Pricing Table">
+				<div class="container-fixed">
+					<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10 ">
+						<div class="table-responsive">
+							<table class="table table-hover">
+							<thead>
+								<tr>
+									<th class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></th>
+									<th class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Daily</th>
+									<th class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Weekly</th>
+									<th class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Tri-Annually <br>(livestock only)</th>
+									<th class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Yearly</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Social Media APIs</td>
+									<td>$9.99</td>
+									<td>$75.48</td>
+									<td>7 goats</td>
+									<td>$19.99</td>
+								</tr>
+								<tr>
+									<td>Mapping APIs</td>
+									<td>$11.12</td>
+									<td>$37.50</td>
+									<td>4 goats and 11 chicken</td>
+									<td>$222.22</td>
+								</tr>
+								<tr>
+									<td>Search APIs</td>
+									<td>$0.12</td>
+									<td>$34.56</td>
+									<td>1 goat, 1 llama<sup>**</sup>,<br> and 4 chicken</td>
+									<td>$789</td>
+								</tr>
+								<tr>
+									<td>Cloud APIs</td>
+									<td>$441</td>
+									<td>$481</td>
+									<td>2 sheep</td>
+									<td>$199.99</td>
+								</tr>
+								<tr>
+									<td>Internet of Things APIs</td>
+									<td>Free<sup>***</sup></td>
+									<td>Free<sup>***</sup></td>
+									<td>4 chicken</td>
+									<td>Free<sup>***</sup></td>
+								</tr>
+								<tr>
+									<td>Unlimited APIs</td>
+									<td>$598</td>
+									<td>$399.99</td>
+									<td>7 goats</td>
+									<td>$999.99</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</div>
+					</div>
+				 <div class="clearfix visible-lg-block visible-md-block"></div>
 			</section>
-			<section class="Action">
-				<div>
-					<p>
+			<section id="Action">
+				<div class="container-fixed">
+					<div class="row text-center">
+					<h1>
 						Signup and Save NOW!
-					</p>
+						</h1>
+						</div>
 				</div>
 			</section>
-			<section class="AboutUs">
+			<section id="AboutUs" class="text-center">
 				<div class="row"> 
 					<div class = "col-xs-12">
 						<h2>
@@ -363,24 +386,51 @@
 					</div>
 				</div>
 				<div class="row"> 
-					<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class = "col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<div class="images" >
-						<img src="design/headphones_clipped.jpg" width=150 alt = "Steve Headphone">	
+						<img class="img-circle" src="design/headphones_clipped.jpg" width=150 alt = "Steve Headphone">	
+						<h3>
+							Design Manager
+						</h3>
+						<h4>
+							Steve
+						</h4>
 					</div>
 					</div>
-					<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class = "col-xs-6 col-sm-6 col-md-3 col-lg-3">
 						<div class="images" >
-							<img src="design/ironic_cat_clipped.jpg" width=150 alt = "Ironic Cat">	
+							<img class="img-circle" src="design/ironic_cat_clipped.jpg" width=150 alt = "Ironic Cat">	
+							<h3>
+							Chief Cat Officer
+						</h3>
+						<h4>
+							Purrman Meowville
+						</h4>
 						</div>
 					</div>
-					<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="row">
+					
+					<div class = "col-xs-6 col-sm-6 col-md-3 col-lg-3">
 						<div class="images" >
-							<img src="design/owl_eyes._clipped.jpg" width=150 alt = "Owl Eyes">	
+							<img class="img-circle" src="design/owl_eyes._clipped.jpg" width=150 alt = "Owl Eyes">	
+						<h3>
+							Accounting
+						</h3>
+						<h4>
+							Nancy 
+						</h4>
 						</div>
-					</div>
-					<div class = "col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						</div>
+					
+					<div class = "col-xs-6 col-sm-6 col-md-3 col-lg-3">
 						<div class="images" >
-							<img src="design/hip_clipped.jpg" width=150 alt = "HR Joe">	
+							<img class="img-circle" src="design/hip_clipped.jpg" width=150 alt = "HR Joe">
+							<h3>
+							HR
+						</h3>
+						<h4>
+							Alfred Reginal 
+						</h4>
 						</div>
 					</div>
 				</div>

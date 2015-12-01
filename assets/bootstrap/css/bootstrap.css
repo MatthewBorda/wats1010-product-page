@@ -6773,3 +6773,8 @@ button.close {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
+
+/*Icon effects  */
+img:hover + #iconrow2{
+	background:black;	
+}
