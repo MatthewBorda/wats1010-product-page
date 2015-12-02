@@ -6775,6 +6775,130 @@ button.close {
 }
 
 /*Icon effects  */
-img:hover + #iconrow2{
-	background:black;	
+
+.facebook:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Facebook: 20,123 APIs';
+		background:#3b5998;
+		border-radius: 10px;
+	color:#f7ffd8;
+
+}
+
+
+.twitter:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Twitter: 7,753 APIs';
+		background:#55ACEE;
+		border-radius: 10px;
+		color:#003b5d;
+		color:#f7ffd8;
+}
+
+
+.youtube:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'YouTube: 1,983 APIs';
+		background:#CD201F;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+.google:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Google +: 77,601 APIs';
+		background:#DC4E41;
+		border-radius: 10px;
+	color:#f7ffd8;
+		color:#f7ffd8;
+}
+
+
+
+.vk:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'VK: 8,560 APIs';
+		background:#6383A8;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+
+.pinterest:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Pinterest: 20,123 APIs';
+		background:#BD081C;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+.instagram:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Instagram: 20,123 APIs';
+		background:#3b5998;
+		border-radius: 10px;
+
+		color:#f7ffd8;
+}
+
+
+.tumblr:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'tumblr: 20,123 APIs';
+		background:#3b5998;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+.linkedin:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'LinkedIn: 20,123 APIs';
+		background:#0077B5;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+
+.vine:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Vine: 20,123 APIs';
+		background:#11B48A;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+
+.weibo:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Sina Weibo: 20,123 APIs';
+		background:#E6162D;
+		border-radius: 10px;
+		color:#f7ffd8;
+}
+
+
+.snapchat:hover ~ div.changeme:after {
+    font-size:300%;
+		content: 'Snapchat: 20,123 APIs';
+		background:#fffc00;
+		border-radius: 10px;
+		color:#9EA38A;
+}
+
+h2 {
+	color:#d5e0b3;
+										 	 border-top:solid  #d5e0b3;
+												border-bottom:solid  #d5e0b3;
+												padding:10px;
+												font-size: 300%;">
+}
+
+h4 {
+	color:#d5e0b3;
 }
