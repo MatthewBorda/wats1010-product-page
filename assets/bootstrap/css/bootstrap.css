@@ -6610,7 +6610,7 @@ button.close {
 
 .hovereffect h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #f7ffd8; 
   text-align: center;
   position: relative;
   font-size: 17px;
@@ -6778,7 +6778,7 @@ button.close {
 
 .facebook:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Facebook: 20,123 APIs';
+		content: 'Facebook: 220,123 APIs';
 		background:#3b5998;
 		border-radius: 10px;
 	color:#f7ffd8;
@@ -6788,7 +6788,7 @@ button.close {
 
 .twitter:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Twitter: 7,753 APIs';
+		content: 'Twitter: 17,753 APIs';
 		background:#55ACEE;
 		border-radius: 10px;
 		color:#003b5d;
@@ -6798,7 +6798,7 @@ button.close {
 
 .youtube:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'YouTube: 1,983 APIs';
+		content: 'YouTube: 91,983 APIs';
 		background:#CD201F;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6818,7 +6818,7 @@ button.close {
 
 .vk:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'VK: 8,560 APIs';
+		content: 'VK: 81,560 APIs';
 		background:#6383A8;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6828,7 +6828,7 @@ button.close {
 
 .pinterest:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Pinterest: 20,123 APIs';
+		content: 'Pinterest: 775,123 APIs';
 		background:#BD081C;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6837,7 +6837,7 @@ button.close {
 
 .instagram:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Instagram: 20,123 APIs';
+		content: 'Instagram: 654,123 APIs';
 		background:#3b5998;
 		border-radius: 10px;
 
@@ -6847,7 +6847,7 @@ button.close {
 
 .tumblr:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'tumblr: 20,123 APIs';
+		content: 'tumblr: 118,100 APIs';
 		background:#3b5998;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6856,7 +6856,7 @@ button.close {
 
 .linkedin:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'LinkedIn: 20,123 APIs';
+		content: 'LinkedIn: 270,103 APIs';
 		background:#0077B5;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6866,7 +6866,7 @@ button.close {
 
 .vine:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Vine: 20,123 APIs';
+		content: 'Vine: 29,123 APIs';
 		background:#11B48A;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6876,7 +6876,7 @@ button.close {
 
 .weibo:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Sina Weibo: 20,123 APIs';
+		content: 'Sina Weibo: 88,970 APIs';
 		background:#E6162D;
 		border-radius: 10px;
 		color:#f7ffd8;
@@ -6885,7 +6885,7 @@ button.close {
 
 .snapchat:hover ~ div.changeme:after {
     font-size:300%;
-		content: 'Snapchat: 20,123 APIs';
+		content: 'Snapchat: 12,123 APIs';
 		background:#fffc00;
 		border-radius: 10px;
 		color:#9EA38A;
